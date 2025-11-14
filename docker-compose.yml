@@ -1,7 +1,7 @@
 services:
-  frontend:
+  react:
     build: ./docker/react
     ports:
       - "80:5173"
     volumes:
-      - ./frontend/:/var/www/frontend/
+      - ./react/:/var/www/react/
